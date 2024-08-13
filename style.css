@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Calligraffitti&family=Lobster&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Calligraffitti&family=Lobster&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.heading h2{
+    font-family: "Calligraffitti", cursive;
+    font-weight: 700;
+}
+
+.navbaritem  li{
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.home h1{
+    font-family: "ADLaM Display", system-ui;
+    font-size: 45px;
+
+}
+.home .main-bttn{
+    display: inline-block;
+    padding: 0.625rem 1.875rem;
+    background-color: #ff0000;
+    border-radius: 60px;
+    color: #fff;
+    font-size: 0.9375rem;
+    font-weight: 600;
+    border: none;
+    transition: background-color ease 0.8s;
+}
+.main-bttn:hover{
+    background-color: white;
+    color: black;
+   
+}
+
+.about .about-btn{
+    padding: 5px 12px;
+    font-size: 20px;
+    font-weight: 500;
+    transition: background-color ease 0.8s;
+    border-radius: 10px;
+    background-color: #f1f133;
+    border: none;
+
+}
+.about .about-btn:hover{
+    background-color: wheat;
+    color: black;
+}
+
+
+.top-banner{
+    width: 100%;
+    background: url(./images/hero-background1.jpg) no-repeat center;
+    background-size: cover;
+    padding: 16.875rem 0 9.375rem;
+    height: 100vh;
+}
+
+.menu-card{
+        transition: transform 0.3s ease, background-color 0.3s ease;
+  
+}
+.menu-card:hover {
+    transform: translateY(-11px);
+    
+}
+
+.booking form button{
+    padding: 5px 30px;
+    border-radius: 10px;
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    transition: background-color ease 0.8s;
+    font-size: 20px;
+    font-weight: 500;
+}
+.booking form button:hover{
+    background-color: wheat;
+    color: black;
+}
+
